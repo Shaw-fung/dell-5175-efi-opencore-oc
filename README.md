@@ -7,10 +7,11 @@
 ### SSD : TINTEL SSDSCKGF256A5 SATA 256GB 
 ### Wireless : Intel 8260 AC + 蓝牙4.1
 ***
-## 说明
+## 使用说明
+### Opencore版本:0.7.1
 ### 声卡注入id：16
 ### 默认config.plist配置为Big sur版本，如需要安装Catalina请将config_catalina.plist改为config.plist，然后开机之后将IO80211Family_catalina.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。即可使用自带WiFi。
-### 当然如果想要安装Mojave也是可以使用config_catalina.plist配置启动，至于WiFi就自己去下载AirportItlwm_Mojave.kext然后提取Mojave里面的IO80211Family.kext并将AirportItlwm.kext放入Contents/PlugIns/里面，添加入配置，然后就OK啦
+### 当然如果想要安装Mojave也是可以使用config_catalina.plist配置启动，至于WiFi就将IO80211Family_Mojave.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。，然后就OK啦
 # Opencore安装Catalina和Big Sur 如下图：
 # Big Sur
 ![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Big%20Sur%2011.5.1.png?raw=true)
