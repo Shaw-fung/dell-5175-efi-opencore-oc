@@ -28,6 +28,6 @@
 <div id="zhuyi"></div>
 
 ### 注意
-[1] Opencore Github地址：[https://github.com/acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
-[2] OpenIntelWireless Github地址：[https://github.com/OpenIntelWireless](https://github.com/OpenIntelWireless)
-[3] Monterey Beta驱动支持可能有些问题，比如蓝牙驱动有可能出现莫名的问题，加载后甚至不能开机进入系统，所以默认是没有加载蓝牙及无线网卡驱动的，无线网卡驱动需要自己去下载相应的Monterey的驱动，系统安装完成后自己尝试
+[1] Opencore Github地址：[https://github.com/acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)  
+[2] OpenIntelWireless Github地址：[https://github.com/OpenIntelWireless](https://github.com/OpenIntelWireless)  
+[3] Monterey Beta驱动支持可能有些问题，比如蓝牙驱动有可能出现莫名的问题，加载后甚至不能开机进入系统，所以默认是没有加载蓝牙及无线网卡驱动的，无线网卡驱动需要自己去下载相应的Monterey的驱动，系统安装完成后自己尝试  
