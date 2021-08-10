@@ -11,7 +11,7 @@
 ***
 ## 使用说明
 ### Opencore版本:0.7.1
-### 支持安装Monterey Beta{[<sup>1</sup>](#zhuyi)、Big Sur，Catalina、Mojave。
+### 支持安装Monterey Beta[<sup>1</sup>](#zhuyi)、Big Sur，Catalina、Mojave。
 ### 声卡注入id：16
 ### 安装完成Big Sur后进入系统后自己启用AirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext这三个驱动。以使用自带蓝牙及无线网卡。
 ### 默认config.plist配置为Big sur版本，如需要安装Catalina请将config_catalina.plist改为config.plist，然后开机之后将IO80211Family_catalina.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。即可使用自带WiFi。
@@ -24,5 +24,6 @@
 ![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Catalina.png?raw=true)
 
 <div id="zhuyi"></div>
+
 ## 注意
 [1] Monterey Beta驱动支持可能有些问题，比如蓝牙驱动有可能出现莫名的问题，加载后甚至不能开机进入系统，所以默认现在是没有加载蓝牙及无线网卡驱动的，无线网卡驱动需要自己去下载相应的Monterey的驱动，系统安装完成后自己尝试
