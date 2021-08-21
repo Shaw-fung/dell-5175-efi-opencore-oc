@@ -7,16 +7,21 @@
 - #### Memory : LPDDR3 4GB 1600 MHz(2GB * 2 Dual Channel)
 - #### SSD : INTEL SSDSCKGF256A5 SATA 256GB 
 - #### Wireless : Intel 8260 AC + 蓝牙4.1
+- #### Dell Latitude 5175 原装键盘底座
 ***
-### 使用说明
+### 安装说明
 - #### 目前建议安装Big Sur
 - #### Opencore版本:0.7.1[<sup>(1)</sup>](#zhuyi)
 - #### 系统无线网卡及蓝牙驱动由OpenIntelWireless[<sup>(2)</sup>](#zhuyi)提供
 - #### 支持安装Monterey Beta[<sup>(3)</sup>](#zhuyi)、Big Sur，Catalina、Mojave。
+### macOS Big Sur 使用说明
 - #### 安装完成Big Sur后进入系统后自己启用AirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext这三个驱动。以使用自带蓝牙及无线网卡。
-- #### 默认config.plist配置为Big sur版本，如需要安装Catalina请将config_catalina.plist改为config.plist，然后开机之后将IO80211Family_catalina.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。即可使用自带无线网卡。
-- #### 当然如果想要安装Mojave也是可以使用config_catalina.plist配置启动，至于自带无线网卡就把O80211Family_Mojave.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。，然后就OK啦
-- #### Monterey由于蓝牙框架改动，需要使用新的蓝牙驱动，需要将原IntelBluetoothInjector.kext开机加载取消，改用BlueToolFixup.kext开机加载。IntelBluetoothFirmware.kext这个不需要变动，仍然保持开机加载。
+### macOS Catalina 使用说明
+- #### 默认config.plist配置为Big sur版本，如需要安装Catalina请将config_catalina.plist改为config.plist，然后开机之后将IO80211Family_catalina.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。即可使用自带无线网卡。蓝牙驱动请使用IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext。
+### macOS Mojave 使用说明
+- #### 默认config.plist配置为Big sur版本，如需要安装Mojave也是可以使用config_catalina.plist配置启动，请将config_catalina.plist改为config.plist，至于自带无线网卡就把O80211Family_Mojave.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。蓝牙驱动请使用IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext。
+### macOS Monterey 使用说明
+- #### Monterey由于蓝牙框架改动，需要使用新的蓝牙驱动，需要将原IntelBluetoothInjector.kext开机加载取消，改用BlueToolFixup.kext[<sup>(4)</sup>](#zhuyi)开机加载。IntelBluetoothFirmware.kext这个不需要变动，仍然保持开机加载。
 - #### Monterey安装的时候如需要启动自带WiFi，则需要将AirportItlwm.kext这个文件开机加载取消，改用开机加载AirportItlwm_Monterey.kext这个驱动，然后就可以正常使用自带WiFi驱动。
 ***
 ## Opencore安装Big Sur和Catalina如下图：
@@ -33,3 +38,4 @@
 [1] Opencore Github地址：[https://github.com/acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)  
 [2] OpenIntelWireless Github地址：[https://github.com/OpenIntelWireless](https://github.com/OpenIntelWireless)  
 [3] Monterey Beta，由于暂时是Beta版本驱动支持可能有些问题，比如蓝牙驱动有可能出现莫名的问题，加载后甚至不能开机进入系统，所以默认是没有加载蓝牙及无线网卡驱动的，无线网卡驱动需要自己选择加载驱动。  
+[4] BlueToolFixup.kext Github地址：[https://github.com/acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)  
