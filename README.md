@@ -26,7 +26,7 @@
 ***
 ## Opencore安装Big Sur和Catalina如下图：
 ### Big Sur：
-![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Big%20Sur%2011.5.1.png?raw=true)
+![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Big%20Sur.png?raw=true)
 ***
 ### Catalina：
 ![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Catalina.png?raw=true)
