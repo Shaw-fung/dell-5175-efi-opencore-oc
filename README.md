@@ -31,7 +31,7 @@
 - #### Monterey由于蓝牙框架改动，需要使用新的蓝牙驱动，需要将原IntelBluetoothInjector.kext开机加载取消，改用BlueToolFixup.kext[<sup>(4)</sup>](#zhuyi)开机加载。IntelBluetoothFirmware.kext这个不需要变动，仍然保持开机加载。
 - #### Monterey安装的时候如需要启动自带WiFi，则需要将AirportItlwm.kext这个文件开机加载取消，改用开机加载AirportItlwm_Monterey.kext这个驱动，然后就可以正常使用自带WiFi驱动。
 ***
-## Opencore安装Big Sur和Catalina如下图：
+## Opencore安装Big Sur和Catalina成功截图如下：
 ### Big Sur：
 ![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Big%20Sur.png?raw=true)
 ***
