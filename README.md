@@ -17,7 +17,7 @@
 ### BIOS 设置
 - #### Boot Sequence 设置UEFI启动
 - #### Secure Boot Enable 设置为Disabled
-- #### Intel® SGX[<sup>TM</sup>] Enable 设置为Disabled
+- #### Intel® SGX<sup>TM</sup> Enable 设置为Disabled
 - #### 关闭VT For Direct I/O
 - #### 关闭Virtualization
 - #### 如设置有问题，可以自行多使用搜索引擎（Google，Baidu，etc.），看看设置内容，可参考别的机型(一般来说黑苹果BIOS所需要的设置的项目都差不多，没有的就不用管)。
