@@ -14,6 +14,13 @@
 - #### Opencore版本:0.7.1[<sup>(1)</sup>](#zhuyi)
 - #### 系统无线网卡及蓝牙驱动由OpenIntelWireless[<sup>(2)</sup>](#zhuyi)提供
 - #### 支持安装Monterey Beta[<sup>(3)</sup>](#zhuyi)、Big Sur，Catalina、Mojave。
+### BIOS 设置
+- #### Boot Sequence 设置UEFI启动
+- #### Secure Boot Enable 设置为Disabled
+- #### Intel® SGX[<sup>TM</sup>] Enable 设置为Disabled
+- #### 关闭VT For Direct I/O
+- #### 关闭Virtualization
+- #### 如设置有问题，可以自行多使用搜索引擎（Google，Baidu，etc.），看看设置内容，可参考别的机型(一般来说黑苹果BIOS所需要的设置的项目都差不多，没有的就不用管)。
 ### macOS Big Sur 使用说明
 - #### 安装完成Big Sur后进入系统后自己启用AirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext这三个驱动。以使用自带蓝牙及无线网卡。
 ### macOS Catalina 使用说明
