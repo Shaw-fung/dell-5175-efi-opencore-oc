@@ -9,6 +9,8 @@
 - #### Wireless : Intel 8260 AC + 蓝牙4.1
 - #### Dell Latitude 5175 原装键盘底座
 ***
+### 准备提供Dell 5175支持Monterey正式版的OC7.4，目前已经在我的电脑上安装，先测试几天,再更新上来，稍等……
+***
 ### 安装说明
 - #### 目前建议安装Big Sur
 - #### Opencore版本:0.7.1[<sup>(1)</sup>](#zhuyi)
