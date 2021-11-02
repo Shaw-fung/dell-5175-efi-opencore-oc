@@ -35,7 +35,10 @@
 ***
 如果有问题，欢迎提交提问讨论，[我要提交问题](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/issues/new)！
 ***
-## Opencore安装Big Sur和Catalina成功截图如下：
+## Opencore安装Monterey、Big Sur和Catalina成功截图如下：
+### Monterey：
+![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Monterey.png?raw=true)
+***
 ### Big Sur：
 ![avatar](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/blob/main/Big%20Sur.png?raw=true)
 ***
