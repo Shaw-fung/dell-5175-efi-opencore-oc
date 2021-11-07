@@ -9,10 +9,10 @@
 - #### Wireless : Intel 8260 AC + 蓝牙4.1
 - #### Dell Latitude 5175 原装键盘底座
 ***
-### 准备提供Dell 5175支持Monterey正式版的OC7.4，目前已经在我的电脑上安装，先测试几天,再更新上来，稍等……
+### 已经提供OC0.7.5 for monterey，但是蓝牙还有点问题，喜欢尝鲜的可以试试。下载[https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/releases/tag/1.2](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/releases/tag/1.2)
 ***
 ### 安装说明
-- #### 目前建议安装Big Sur
+- #### 目前仍建议安装Big Sur
 - #### Opencore版本:0.7.1[<sup>(1)</sup>](#zhuyi)
 - #### 系统无线网卡及蓝牙驱动由OpenIntelWireless[<sup>(2)</sup>](#zhuyi)提供
 - #### 支持安装Monterey Beta[<sup>(3)</sup>](#zhuyi)、Big Sur，Catalina、Mojave。
