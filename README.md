@@ -23,7 +23,7 @@
 - #### 如设置有问题，可以自行多使用搜索引擎（Google，Baidu，etc.），看看设置内容，可参考别的机型(一般来说黑苹果BIOS所需要的设置的项目都差不多，没有的就不用管)。
 ### macOS Big Sur 及macOS Monterey 使用说明
 - #### Big Sur安装完成修改序列号即可使用。
-- #### Monterey由于蓝牙框架改动，改用BlueToolFixup.kext[<sup>(4)</sup>](#zhuyi)开机加载，目前蓝牙还存在问题。
+- #### Monterey由于蓝牙框架改动，使用BlueToolFixup.kext[<sup>(4)</sup>](#zhuyi)驱动，目前蓝牙还存在问题。
 ### macOS Catalina 使用说明
 - #### 默认config.plist配置为Big sur版本，如需要安装Catalina请将config_catalina.plist改为config.plist，然后开机之后将IO80211Family_catalina.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。即可使用自带无线网卡。蓝牙驱动请使用IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext。
 ### macOS Mojave 使用说明
