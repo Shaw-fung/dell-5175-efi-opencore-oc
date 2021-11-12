@@ -22,12 +22,12 @@
 - #### 关闭Virtualization
 - #### 如设置有问题，可以自行多使用搜索引擎（Google，Baidu，etc.），看看设置内容，可参考别的机型(一般来说黑苹果BIOS所需要的设置的项目都差不多，没有的就不用管)。
 ### macOS Big Sur 及macOS Monterey 使用说明
-- #### Big Sur安装完成修改序列号即可使用。
+- #### Big Sur安装完成后修改序列号即可使用。
 - #### Monterey由于蓝牙框架改动，使用BlueToolFixup.kext[<sup>(4)</sup>](#zhuyi)驱动，目前蓝牙还存在问题。
 ### macOS Catalina 使用说明
-- #### 默认config.plist配置为Big sur版本，如需要安装Catalina请将config_catalina.plist改为config.plist，然后开机之后将IO80211Family_catalina.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。即可使用自带无线网卡。蓝牙驱动请使用IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext。
+- #### Catalina安装完成后修改序列号即可使用。
 ### macOS Mojave 使用说明
-- #### 默认config.plist配置为Big sur版本，如需要安装Mojave也是可以使用config_catalina.plist配置启动，请将config_catalina.plist改为config.plist，至于自带无线网卡就把O80211Family_Mojave.kext改为IO80211Family.kext并加入config.plist配置内并开机启动。蓝牙驱动请使用IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext。
+- #### 如需要安装Mojave，请将AirportItlwm_Mojave.kext加入config.plist配置内并开机启动，方可使用自带WiFi。
 ***
 如果有问题，欢迎提交提问讨论，[我要提交问题](https://github.com/Shaw-fung/dell-5175-efi-opencore-oc/issues/new)！
 ***
