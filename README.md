@@ -47,5 +47,5 @@
 ### 注意
 [1] Opencore Github地址：[https://github.com/acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)  
 [2] OpenIntelWireless Github地址：[https://github.com/OpenIntelWireless](https://github.com/OpenIntelWireless)  
-[3] Monterey，由于暂时是蓝牙驱动支持可能有些问题，比如蓝牙驱动有可能出现莫名的问题，所以目前仍然推荐安装Big Sur。  
+[3] Monterey，由于蓝牙驱动支持有些问题，有时蓝牙驱动有可能出现莫名的问题，比如无法开启蓝牙，所以目前仍然推荐安装Big Sur。  
 [4] BlueToolFixup.kext Github地址：[https://github.com/acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)  
