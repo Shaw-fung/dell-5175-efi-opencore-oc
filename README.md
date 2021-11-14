@@ -10,9 +10,9 @@
 - #### Dell Latitude 5175 原装键盘底座
 ***
 ### 安装说明
-- #### 目前仍建议安装Big Sur，当然Monterey也已经可以安装使用。
-- #### Opencore版本:0.7.5[<sup>(1)</sup>](#zhuyi)
-- #### 系统无线网卡及蓝牙驱动由OpenIntelWireless[<sup>(2)</sup>](#zhuyi)提供
+- #### 目前建议安装Monterey；
+- #### Opencore版本:0.7.5[<sup>(1)</sup>](#zhuyi)；
+- #### 系统无线网卡及蓝牙驱动由OpenIntelWireless[<sup>(2)</sup>](#zhuyi)提供；
 - #### 支持安装Monterey[<sup>(3)</sup>](#zhuyi)、Big Sur，Catalina、Mojave。
 ### BIOS 设置
 - #### Boot Sequence 设置UEFI启动
